@@ -1,0 +1,40 @@
+/* 
+#14AAF5 
+#AD62E6
+#EDF2F7
+#33C7AD
+*/
+
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* COMMON */
+/* Layout */
+body {
+  background-color: #EDF2F7;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* HEADER */
+.header {
+  padding: 10px 20px;
+  background-color: #ffffff;
+}
+
+.header .logo,
+.header .title {
+  vertical-align: middle;
+}
+
+.header .title {
+  font-size: 32px;
+  font-weight: 800;
+}
+
+
+
