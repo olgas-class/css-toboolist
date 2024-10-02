@@ -19,11 +19,47 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+main {
+  margin-top: 50px;
+}
+
+.container {
+  width: 70%;
+  max-width: 900px;
+  margin: 0 auto;
+
+  /* debug */
+  border: 1px solid black;
+  /* height: 200px; */
+}
+
+/* Utility */
+.bg-white {
+  background-color: #ffffff;
+}
+
+/* Buttons */
+.btn {
+  border: 1px solid transparent;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.btn-blue {
+  background-color: #14AAF5;
+  color: white;
+  border-color: #14AAF5;
+}
+
+.btn-light {
+  background-color: #ffffff;
+  color: #808080;
+  border-color: #808080;
+}
 
 /* HEADER */
 .header {
   padding: 10px 20px;
-  background-color: #ffffff;
 }
 
 .header .logo,
@@ -36,5 +72,13 @@ body {
   font-weight: 800;
 }
 
+/* MAIN */
+.actions-section {
+  margin-bottom: 3px;
+  padding: 20px 40px;
+}
 
+.todos-section {
+  padding: 40px;
+}
 
