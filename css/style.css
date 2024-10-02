@@ -12,6 +12,10 @@
   box-sizing: border-box;
 }
 
+ul {
+  list-style: none;
+}
+
 /* COMMON */
 /* Layout */
 body {
@@ -27,10 +31,6 @@ main {
   width: 70%;
   max-width: 900px;
   margin: 0 auto;
-
-  /* debug */
-  border: 1px solid black;
-  /* height: 200px; */
 }
 
 /* Utility */
@@ -82,3 +82,48 @@ main {
   padding: 40px;
 }
 
+/* li che è il figlio diretto di ul */
+.primary-list > li {
+  margin-bottom: 20px;
+}
+
+.inner-list li {
+  padding: 8px 0;
+}
+
+.circle {
+  border: 1px solid black;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  border-radius: 50%;
+  line-height: 30px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.circle.check {
+  border-color: #008000;
+  color: #008000;
+}
+
+.cross {
+  border-color: red;
+  color: red;
+}
+
+.tag {
+  display: inline-block;
+  background-color: #808080;
+  padding: 8px 12px;
+  border-radius: 20px;
+  color: #ffffff;
+}
+
+.editorial {
+  background-color: #14AAF5;
+}
+
+.goals {
+  background-color: #AD62E6;
+}
