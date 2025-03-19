@@ -1,0 +1,198 @@
+/* 
+#50B0F0
+#9C72E4
+#64C0A9
+#F29E33
+#D863A1
+*/
+
+/* Custom properties */
+:root {
+  --color-blue: #50b0f0;
+  --circle-size: 20px;
+}
+
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+}
+
+/* COMMON */
+/* Typography */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #d3d3d3;
+}
+
+/* Layout */
+.container {
+  width: 70%;
+  max-width: 700px;
+  margin: 0 auto;
+
+  /* debug */
+  /* border: 1px solid black; */
+}
+
+/* Utilities */
+.align-middle {
+  vertical-align: middle;
+}
+
+.bg-white {
+  background-color: #ffffff;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  padding: 4px 8px;
+  border-radius: 5px;
+  border: 1px solid;
+}
+
+.btn:hover {
+  opacity: 0.8;
+  scale: 1.1;
+}
+
+.btn-blue {
+  background-color: var(--color-blue);
+  color: #ffffff;
+  border-color: var(--color-blue);
+}
+
+.btn-white {
+  background-color: #ffffff;
+  color: #a4a4a4;
+  border-color: #a4a4a4;
+}
+
+/* HEADER */
+.header {
+  background-color: #ffffff;
+  padding: 5px 10px;
+}
+
+.logo-text {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+/* MAIN */
+main {
+  padding: 40px 0;
+}
+
+.nav {
+  padding: 10px 40px;
+  margin-bottom: 5px;
+}
+
+.content {
+  padding: 20px 40px;
+}
+
+.primary-list > li {
+  margin-bottom: 20px;
+}
+
+.inner-list > li {
+  margin-bottom: 10px;
+}
+
+.circle {
+  display: inline-block;
+  width: var(--circle-size);
+  height: var(--circle-size);
+  line-height: var(--circle-size);
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.check {
+  border-color: #008000;
+  color: #008000;
+}
+
+.cross {
+  border-color: #ff0000;
+  color: #ff0000;
+}
+
+.tag {
+  display: inline-block;
+  padding: 5px 12px;
+  border-radius: 20px;
+  color: #ffffff;
+}
+
+.editorial {
+  background-color: var(--color-blue);
+}
+
+.recruiting {
+  background-color: #64c0a9;
+}
+
+.color-text {
+  color: green;
+}
+
+.color-text2 {
+  color: blue;
+}
+
+/* Colasso delle margini in verticale */
+.parent {
+  background-color: lightseagreen;
+  height: 300px;
+}
+
+.child {
+  background-color: lightcoral;
+  width: 150px;
+  height: 80px;
+}
+
+.child1 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.child2 {
+  margin-top: 40px;
+}
+
+.my-btn {
+  background-color: #50b0f0;
+  border: 1px solid black;
+}
+
+a.my-btn {
+  text-decoration: none;
+}
+
+button.my-btn {
+  cursor: pointer;
+}
+
+[href="ciao"] {
+  color: rebeccapurple;
+}
