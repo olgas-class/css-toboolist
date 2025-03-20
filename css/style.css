@@ -196,3 +196,7 @@ button.my-btn {
 [href="ciao"] {
   color: rebeccapurple;
 }
+
+.table > :nth-last-child(3) {
+  color: blue;
+}
