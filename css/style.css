@@ -5,6 +5,40 @@
   box-sizing: border-box;
 }
 
+/* COMMON */
 body {
+  font-family: sans-serif;
   background-color: rgb(167, 177, 191);
+}
+
+/* Utilities */
+.bg-white {
+  background-color: rgb(255, 255, 255);
+}
+
+/* Layout */
+.container {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+header {
+  padding: 10px 20px;
+}
+
+.logo-image,
+.logo-text {
+  vertical-align: middle;
+}
+
+.logo-text {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+/* MAIN */
+main {
+  padding-top: 60px;
 }
