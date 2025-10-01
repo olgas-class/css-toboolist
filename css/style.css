@@ -23,6 +23,28 @@ body {
   margin: 0 auto;
 }
 
+/* Buttons */
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  padding: 5px 10px;
+  background-color: lightcoral;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.btn-blue {
+  background-color: lightskyblue;
+  color: white;
+  border: 1px solid lightskyblue;
+}
+
+.btn-white {
+  background-color: white;
+  color: gray;
+  border: 1px solid gray;
+}
+
 /* HEADER */
 header {
   padding: 10px 20px;
@@ -41,4 +63,10 @@ header {
 /* MAIN */
 main {
   padding-top: 60px;
+}
+
+.actions-nav {
+  padding: 10px 30px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
